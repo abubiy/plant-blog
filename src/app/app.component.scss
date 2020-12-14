@@ -1,0 +1,35 @@
+// snap scrolling
+.scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+ overflow-x: hidden;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+.scroll-container::-webkit-scrollbar { /* WebKit */
+  width: 0;
+  height: 0;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// snap to home page after rendering
+.skip {
+  display: none;
+}
+
+.unhide {
+  display: block;
+}
+
+
+
+

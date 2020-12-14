@@ -1,0 +1,22 @@
+.about-grid {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr 1fr 1fr 1fr 1fr 0.5fr 0.5fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". . . . . . . . . . ."
+      ". . . . . . . . . . ."
+      ". picture picture picture picture . bio bio bio bio ."
+      ". picture picture picture picture . bio bio bio bio ."
+      ". picture picture picture picture . bio bio bio bio ."
+      ". picture picture picture picture . bio bio bio bio ."
+      ". . . . . . . . . . ."
+      ". . . . . work . . . . .";
+      justify-items: center; 
+      background-color: white;
+  }
+  .picture { grid-area: picture; align-self: center; }
+  .bio { grid-area: bio; align-self: center; font-family: 'Ubuntu', sans-serif;
+    text-align:left; line-height: 1.5; font-size: large; }
+  

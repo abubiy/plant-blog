@@ -1,0 +1,33 @@
+.work-grid {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr 1fr 1fr 1fr 0.5fr 0.5fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        ". . . . . about . . . . ."
+        ". . . . . . . . . . ."
+        ". experience experience experience experience experience skills skills skills skills ."
+        ". experience experience experience experience experience skills skills skills skills ."
+        ". contact contact contact contact looking looking looking looking looking ."
+        ". . . . . looking looking looking looking looking ."
+        ". . . . . looking looking looking looking looking .";
+        justify-items: center; 
+}
+
+
+.experience { 
+    grid-area: experience;
+    width: 90%; 
+    font-family: 'Ubuntu', sans-serif;
+    text-align:left; 
+    line-height: 1.5; 
+    font-size: large;
+}
+  
+.skills { 
+    grid-area: skills; 
+    width: 90%; 
+}
+
