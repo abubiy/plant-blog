@@ -1,2 +1,16 @@
 
+.nav{
+    margin: 10px 0;
+    display: inline-flex;
+    min-width: 100%;
+}
+
+.nav button {
+    background-color: white;
+    color: black;
+}
+
+.nav button:hover {
+    color: gray;
+}
 
