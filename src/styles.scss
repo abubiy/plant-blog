@@ -3,6 +3,7 @@
 
 body{
   margin:0 0 0 0;
+
 }
 
 mat-icon{
@@ -11,15 +12,6 @@ mat-icon{
 
 .flex-spacer {
   flex: 1 1 auto;
-}
-
-.about { 
-  grid-area: about; 
-  align-self: end;
-}
-
-.work { 
-  grid-area: work; 
 }
 
 .contact { 
