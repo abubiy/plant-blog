@@ -17,7 +17,7 @@ import {Component, Input} from '@angular/core';
 export class NavComponent {
   @Input() id: String; 
 
-  nav = ["home", "work", "about me", "contact"];
+  nav = ["home", "work", "about me", ]; //add contact 
     
   scrollTo(id){
     console.log("they see me scrolling, they hatin")
